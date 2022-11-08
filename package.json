@@ -10,7 +10,8 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "deploy": "gh-pages -d docs"
     },
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
     "keywords": [
@@ -23,7 +24,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/freelancer",
+    "homepage": "https://toxakaz.github.io",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-freelancer/issues",
         "email": "feedback@startbootstrap.com"
@@ -45,6 +46,7 @@
         "browser-sync": "2.27.9",
         "chokidar": "3.5.3",
         "concurrently": "6.3.0",
+        "gh-pages": "^4.0.0",
         "postcss": "8.4.12",
         "prettier": "2.6.0",
         "pug": "3.0.2",
